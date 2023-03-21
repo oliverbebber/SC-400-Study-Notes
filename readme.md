@@ -3,11 +3,14 @@
 This project is a work in progress while I study and take notes for the SC-400 Exam.
 
 # Disclaimer
+
 Do not rely on these notes to pass the exam. It's advised to use Microsoft's study guide for the exam: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Mr80
 
 
 ## Skills measured as of February 1, 2023
+
 ### Audience profile
+
 The Microsoft information protection administrator plans and implements controls that meet organizational information protection and governance requirements by using Microsoft 365 information protection services. This person is responsible for translating information protection requirements and controls into technical implementation.
 
 They assist information technology (IT) personnel, business application owners, human resources and legal stakeholders in implementing technology solutions that support the policies and controls necessary to sufficiently address regulatory requirements for their organization. They also work with the security and governance leadership, such as a chief compliance officer, chief data officer, and security officer, to evaluate the full breadth of associated enterprise risk and partner to develop those policies.
@@ -15,9 +18,13 @@ They assist information technology (IT) personnel, business application owners, 
 This person defines applicable requirements and evaluates IT processes and operations against those policies and controls. They are responsible for creating policies and rules for content classification, data loss prevention, governance, and protection.
 
 ---
+
 # Exam Objectives
-## Implement information protection (35–40%)
+
+## <a href="https://github.com/oliverbebber/SC-400-Study-Notes/blob/main/1.%20Implement%20information%20protection.md#implement-information-protection">Implement information protection (35–40%)</a>
+
 ### Create and manage sensitive information types
+
 - Plan for sensitive information types
 - Select a sensitive information type based on an organization's requirements
 - Create and manage custom sensitive information types
@@ -26,12 +33,14 @@ This person defines applicable requirements and evaluates IT processes and opera
 - Create and use a keyword dictionary
 
 ### Create and manage trainable classifiers
+
 - Identify when to use trainable classifiers
 - Design and create a trainable classifier
 - Test a trainable classifier
 - Retrain a classifier
 
 ### Implement and manage sensitivity labels
+
 - Design and implement roles and permissions for administering sensitivity labels
 - Design and create sensitivity labels
 - Configure and manage sensitivity label policies
@@ -44,12 +53,15 @@ This person defines applicable requirements and evaluates IT processes and opera
 - Create or extend existing sensitivity labels to Microsoft Purview
 
 ### Design and implement encryption for email messages
+
 - Design an email encryption solution based on methods available in Microsoft 365
 - Implement Microsoft Purview Message Encryption
 - Implement Microsoft Purview Advanced Message Encryption
 
-## Implement data loss prevention (30–35%)
+## <a href="https://github.com/oliverbebber/SC-400-Study-Notes/blob/main/2.%20Implement%20data%20loss%20prevention.md#implement-data-loss-prevention">Implement data loss prevention (30–35%)</a>
+
 ### Create and configure data loss prevention (DLP) policies
+
 - Recommend a DLP solution for an organization
 - Configure permissions for DLP
 - Create, test, and tune DLP policies
@@ -59,6 +71,7 @@ This person defines applicable requirements and evaluates IT processes and opera
 - Configure file policies in Microsoft Defender for Cloud Apps to use DLP policies
 
 ### Implement and monitor Microsoft Endpoint DLP
+
 - Create and maintain DLP policies for endpoints
 - Configure endpoint DLP settings
 - Specify a deployment method for device onboarding
@@ -67,13 +80,16 @@ This person defines applicable requirements and evaluates IT processes and opera
 - Implement Microsoft Purview Extension
 
 ### Analyze and respond to data loss prevention policies and activities
+
 - Analyze data loss prevention reports
 - Analyze data loss prevention activities by using Activity explorer
 - Remediate data loss prevention policy violations in the Microsoft Purview compliance portal
 - Remediate data loss prevention violations in Microsoft Defender for Cloud Apps
 
-## Implement information governance (25–30%)
+## <a href="https://github.com/oliverbebber/SC-400-Study-Notes/blob/main/3.%20Implement%20information%20governance.md#implement-information-governance">Implement information governance (25–30%)</a>
+
 ### Retain and delete data by using retention labels
+
 - Plan for information retention and disposition by using retention labels
 - Create retention labels
 - Configure and manage adaptive scopes
@@ -81,6 +97,7 @@ This person defines applicable requirements and evaluates IT processes and opera
 - Configure and publish auto-apply label policies
 
 ### Manage data retention in Microsoft 365
+
 - Create and apply retention policies for Microsoft SharePoint Online and OneDrive
 - Create and apply retention policies for Microsoft Teams
 - Configure preservation locks
@@ -90,6 +107,7 @@ This person defines applicable requirements and evaluates IT processes and opera
 - Implement Microsoft Exchange Online archiving policies
 
 ### Implement records management in Microsoft 365
+
 - Plan for records management
 - Configure labels for records management
 - Manage retention requirements with a file plan
@@ -98,3 +116,11 @@ This person defines applicable requirements and evaluates IT processes and opera
 - Implement in-place records management in Microsoft SharePoint Online
 - Manage event-based retention
 - Manage disposition of records
+
+
+# References
+
+- https://learn.microsoft.com/en-us/certifications/exams/sc-400
+- https://learn.microsoft.com/en-us/training/paths/implement-information-protection/
+- https://learn.microsoft.com/en-us/training/paths/implement-data-loss-prevention/
+- https://learn.microsoft.com/en-us/training/paths/implement-information-governance/
